@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+img {
+    width: 80%; /* L'image prend 80% de la largeur de la page */
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
